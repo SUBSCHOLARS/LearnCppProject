@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/hatanakakouta/Dev/LearnCppProject/CppProgram/build/lesson2_1_intro_to_functions'
+relocations:     []
+...

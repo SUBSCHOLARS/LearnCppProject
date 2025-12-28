@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/hatanakakouta/Dev/LearnCppProject/CppProgram/build/lesson1_4_variable_assignment_and_initialization'
+relocations:     []
+...

@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/hatanakakouta/Dev/LearnCppProject/CppProgram/build/what_complier_do_i_use'
+relocations:     []
+...
