@@ -8,9 +8,11 @@
                 "-fcolor-diagnostics",
                 "-fansi-escape-codes",
                 "-g",
-                "${file}",
+                // ${fileDirname}/*.cppとすることで、同一ディレクトリ内にある全てのcpp拡張子を持つファイルをコンパイルするという命令になる
+                "${fileDirname}/*.cpp",
                 "-o",
-                "${workspaceFolder}/build/${fileBasenameNoExtension}",
+                // ${fileDirnameBasename}-${fileBasenameNoExtension}とすることで、出力ファイルが親フォルダ名-ファイル名となる。
+                "${workspaceFolder}/build/${fileDirnameBasename}-${fileBasenameNoExtension}",
                 "-std=c++17",
                 "-stdlib=libc++"
             ],

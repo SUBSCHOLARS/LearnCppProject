@@ -6,7 +6,7 @@
             "type": "cppdbg",
             "request": "launch",
             // ここが重要：buildフォルダの中身を実行しにいく設定
-            "program": "${workspaceFolder}/build/${fileBasenameNoExtension}",
+            "program": "${workspaceFolder}/build/${fileDirnameBasename}-${fileBasenameNoExtension}",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
