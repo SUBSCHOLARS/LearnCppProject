@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/hatanakakouta/Dev/LearnCppProject/CppProgram/build/lesson2_4_how_parameters_and_return_values_work_together'
+relocations:     []
+...
