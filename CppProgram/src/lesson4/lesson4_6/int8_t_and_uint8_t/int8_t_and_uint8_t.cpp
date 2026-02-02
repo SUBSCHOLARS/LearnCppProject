@@ -1,0 +1,10 @@
+﻿#include <cstdint>
+#include <iostream>
+
+int main()
+{
+    std::int8_t x {65}; // initialize 8-bit integral type with value 65
+    std::cout <<x<<'\n'; // You're probably expecting this to print 65, but it prints A
+
+    return 0;
+}
