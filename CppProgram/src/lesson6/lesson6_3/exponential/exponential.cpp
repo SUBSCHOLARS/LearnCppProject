@@ -1,0 +1,3 @@
+﻿#include <cmath>
+
+double x { std::pow(3.0, 4.0)}; // 3 to the 4th power
